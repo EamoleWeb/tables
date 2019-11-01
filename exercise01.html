@@ -1,0 +1,54 @@
+<!-- 
+    Exercise 01
+    table - 3 cols, 4 rows
+    3 th elements in first row
+    3 rows with names of  things with that colour
+    
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Colour Table</title>
+    <link rel="stylesheet" href="exercise01.css">
+</head>
+<body>
+
+    <table>
+        <caption>Colour Table</caption>
+        <!-- 
+            emmet
+            thead>tr>th.col$*3
+            tbody>tr*3>td.col$*3
+        -->
+        <thead>
+            <tr>
+                <th>Red</th>
+                <th>Orange</th>
+                <th>Yellow</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="col1">A tomato</td>
+                <td class="col2">An orange</td>
+                <td class="col3">A banana</td>
+            </tr>
+            <tr>
+                <td class="col1">A Ferrari</td>
+                <td class="col2">A basketball</td>
+                <td class="col3">Submarine</td>
+            </tr>
+            <tr>
+                <td class="col1">Blood</td>
+                <td class="col2">A carrot</td>
+                <td class="col3">A lemon</td>
+            </tr>
+        </tbody>
+
+    </table>
+    
+</body>
+</html>

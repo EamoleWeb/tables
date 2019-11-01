@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>People</title>
+    <link rel="stylesheet" href="exercise02.css">
+</head>
+
+<body>
+    <table>
+        <caption>People</caption>
+
+        <!-- 
+            10 rows x 6 cols
+            use colspan & rowspan
+
+            emmet
+            thead>tr>th*6
+            tfoot>tr>td*6
+            tbody>tr*9>td.col$*6
+         -->
+        <thead>
+            <!-- using colgroup & col v tr & th - can apply style to columns -->
+            <colgroup>
+                <col class="col01" span="2"></col>
+                <col class="col02" span="2"></col>
+                <col class="col03" span="2"></col>
+            </colgroup>
+            <tr>
+                <th colspan="2">Name</th>
+                <th colspan="2"></th>
+                <th colspan="2">Contact</th>
+            </colgroup>
+
+            <tr>
+                <th>First</th>
+                <th>Last</th>
+                <th>DOB</th>
+                <th>Gender</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+
+        <tfoot>
+            <tr>
+                <th>First</th>
+                <th>Last</th>
+                <th>DOB</th>
+                <th>Gender</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+        </tfoot>
+
+        <tbody>
+
+            <tr>
+                <td class="col1">Eamonn</td>
+                <td class="col2">Coghlan</td>
+                <td class="col3">18 Sept 1965</td>
+                <td class="col4">Fluid!!</td>
+                <td class="col5">083 5676543</td>
+                <td class="col6">eamole@hotmail.com</td>
+            </tr>
+            <tr>
+                <td class="col1">Eamonn</td>
+                <td class="col2">Coghlan</td>
+                <td class="col3">18 Sept 1965</td>
+                <td class="col4">Fluid!!</td>
+                <td class="col5">083 5676543</td>
+                <td class="col6">eamole@hotmail.com</td>
+            </tr>
+
+            <tr>
+                <td class="col1">Eamonn</td>
+                <td class="col2">Coghlan</td>
+                <td class="col3">18 Sept 1965</td>
+                <td class="col4">Fluid!!</td>
+                <td class="col5">083 5676543</td>
+                <td class="col6">eamole@hotmail.com</td>
+            </tr>
+
+            <tr>
+                <td class="col1">Eamonn</td>
+                <td class="col2">Coghlan</td>
+                <td class="col3">18 Sept 1965</td>
+                <td class="col4">Fluid!!</td>
+                <td class="col5">083 5676543</td>
+                <td class="col6">eamole@hotmail.com</td>
+            </tr>
+
+            <tr colspan="2">
+                
+                <th rowspan="2">Group</th>
+                    <!-- this continues the first tr -->
+                    <th>Subgroup 1</th>
+
+                    <!-- use up the rest of the space -->
+                    <td colspan="3">single field (3 cols) for the subgroup</td>
+                    <td>Might put a button here</td>
+                    <!-- this creates the 2nd row - for the rowspan="2" -->
+                    <tr>
+                        <th>Subgroup 2</th>
+
+                        <td colspan="3">Another single field (3 cols) for the subgroup</td>
+                        <td>Another button?</td>
+                    </tr>
+        
+            </tr>
+    
+            <tr>
+                <td class="col1">Eamonn</td>
+                <td class="col2">Coghlan</td>
+                <td class="col3">18 Sept 1965</td>
+                <td class="col4">Fluid!!</td>
+                <td class="col5">083 5676543</td>
+                <td class="col6">eamole@hotmail.com</td>
+            </tr>
+            <tr>
+                <td class="col1">Eamonn</td>
+                <td class="col2">Coghlan</td>
+                <td class="col3">18 Sept 1965</td>
+                <td class="col4">Fluid!!</td>
+                <td class="col5">083 5676543</td>
+                <td class="col6">eamole@hotmail.com</td>
+            </tr>
+            <tr>
+                <td class="col1">Eamonn</td>
+                <td class="col2">Coghlan</td>
+                <td class="col3">18 Sept 1965</td>
+                <td class="col4">Fluid!!</td>
+                <td class="col5">083 5676543</td>
+                <td class="col6">eamole@hotmail.com</td>
+            </tr>
+            <tr>
+                <td class="col1">Eamonn</td>
+                <td class="col2">Coghlan</td>
+                <td class="col3">18 Sept 1965</td>
+                <td class="col4">Fluid!!</td>
+                <td class="col5">083 5676543</td>
+                <td class="col6">eamole@hotmail.com</td>
+            </tr>
+            <tr>
+                <td class="col1">Eamonn</td>
+                <td class="col2">Coghlan</td>
+                <td class="col3">18 Sept 1965</td>
+                <td class="col4">Fluid!!</td>
+                <td class="col5">083 5676543</td>
+                <td class="col6">eamole@hotmail.com</td>
+            </tr>
+            <tr>
+                <td class="col1">Eamonn</td>
+                <td class="col2">Coghlan</td>
+                <td class="col3">18 Sept 1965</td>
+                <td class="col4">Fluid!!</td>
+                <td class="col5">083 5676543</td>
+                <td class="col6">eamole@hotmail.com</td>
+            </tr>
+            <tr>
+                <td class="col1">Eamonn</td>
+                <td class="col2">Coghlan</td>
+                <td class="col3">18 Sept 1965</td>
+                <td class="col4">Fluid!!</td>
+                <td class="col5">083 5676543</td>
+                <td class="col6">eamole@hotmail.com</td>
+            </tr>
+            <tr>
+                <td class="col1">Eamonn</td>
+                <td class="col2">Coghlan</td>
+                <td class="col3">18 Sept 1965</td>
+                <td class="col4">Fluid!!</td>
+                <td class="col5">083 5676543</td>
+                <td class="col6">eamole@hotmail.com</td>
+            </tr>
+            <tr>
+                <td class="col1">Eamonn</td>
+                <td class="col2">Coghlan</td>
+                <td class="col3">18 Sept 1965</td>
+                <td class="col4">Fluid!!</td>
+                <td class="col5">083 5676543</td>
+                <td class="col6">eamole@hotmail.com</td>
+            </tr>
+            <tr>
+                <td class="col1">Eamonn</td>
+                <td class="col2">Coghlan</td>
+                <td class="col3">18 Sept 1965</td>
+                <td class="col4">Fluid!!</td>
+                <td class="col5">083 5676543</td>
+                <td class="col6">eamole@hotmail.com</td>
+            </tr>
+            <tr>
+                <td class="col1">Eamonn</td>
+                <td class="col2">Coghlan</td>
+                <td class="col3">18 Sept 1965</td>
+                <td class="col4">Fluid!!</td>
+                <td class="col5">083 5676543</td>
+                <td class="col6">eamole@hotmail.com</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+</body>
+
+</html>

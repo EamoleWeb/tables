@@ -1,0 +1,32 @@
+
+table, td, th {
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding-left:15px;
+    padding-right:15px;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table caption {
+    background-color: mediumblue;
+    color: white;
+}
+table tr th {
+    color: white;
+    background-color: gray;
+}
+.col1 {
+    background-color: red;
+}
+.col2 {
+    background-color: orange;
+}
+.col3 {
+    background-color: yellow;
+}
+

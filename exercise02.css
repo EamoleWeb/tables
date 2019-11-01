@@ -1,0 +1,22 @@
+table, td, th {
+    border: 1px black solid;
+    border-collapse: collapse;
+    padding-left:15px;
+    padding-right:15px;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+th {
+    background-color: lightgray;
+}
+
+.col01 {
+    background-color: mediumseagreen;
+}
+.col02 {
+    background-color: blue;
+}
+.col03 {
+    background-color:red;
+}

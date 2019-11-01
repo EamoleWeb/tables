@@ -1,0 +1,24 @@
+table, td, th {
+    border: 1px black solid;
+    border-collapse: collapse;
+    padding-left:15px;
+    padding-right:15px;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+th {
+    background-color: lightgray;
+}
+.pswim {
+    background-color: lightskyblue;
+}
+.lswim {
+    background-color: limegreen;
+}
+#class11 {
+    background-color:cyan;
+}
+#class11 {
+    background-color:cyan;
+}
